@@ -1,4 +1,4 @@
-FROM voduytuan/docker-nginx-php:latest
+FROM ngocquang/docker-nginx-php:latest
 
 RUN apt-get update
 RUN DEBIAN_FRONTEND="noninteractive" apt-get install -y python-setuptools python-pip
